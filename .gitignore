@@ -1,0 +1,27 @@
+# Data lomba (sekitar 4,6 GB) tidak di-commit; lihat README bagian "Unduh data"
+data/*
+!data/README.md
+
+# Bobot model hasil training
+checkpoint/*
+!checkpoint/README.md
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Hasil antara: cache PNG, logit, submission, uji asap
+outputs/
+smoke_run/
+submission.csv
+*.npy
+*.parquet
+
+# Python dan Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store

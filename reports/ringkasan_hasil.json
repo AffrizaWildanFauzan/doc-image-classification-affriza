@@ -1,0 +1,109 @@
+{
+  "profil": "rvlcdip_ft",
+  "anggota": [
+    "dit_large_rvlft",
+    "donut_rvlcdip",
+    "dit_base_rvlft"
+  ],
+  "gagal": [],
+  "akurasi_anggota": {
+    "donut_rvlcdip": 0.9512,
+    "dit_large_rvlft": 0.9427,
+    "dit_base_rvlft": 0.9307
+  },
+  "kombinasi": [
+    "dit_large_rvlft",
+    "donut_rvlcdip"
+  ],
+  "bobot_final": {
+    "dit_large_rvlft": 1,
+    "donut_rvlcdip": 1
+  },
+  "tta": false,
+  "acc_holdout_final": 0.9537,
+  "n_holdout": 6088,
+  "data_cleaning": {
+    "n_pairs": 9275,
+    "konflik_dibuang": 1099,
+    "duplikat_test": {
+      "md5_identik": 25,
+      "phash_identik": 119,
+      "n_test": 7994
+    }
+  },
+  "pasangan_tertukar": [
+    [
+      "presentation",
+      "scientific_report",
+      14
+    ],
+    [
+      "form",
+      "letter",
+      8
+    ],
+    [
+      "questionnaire",
+      "form",
+      8
+    ],
+    [
+      "budget",
+      "presentation",
+      7
+    ],
+    [
+      "memo",
+      "letter",
+      7
+    ],
+    [
+      "scientific_report",
+      "form",
+      7
+    ]
+  ],
+  "akurasi_per_kelas_ensemble": {
+    "advertisement": 0.9673,
+    "budget": 0.9579,
+    "email": 0.9935,
+    "file_folder": 0.988,
+    "form": 0.8886,
+    "handwritten": 0.961,
+    "invoice": 0.9599,
+    "letter": 0.9425,
+    "memo": 0.9444,
+    "news_article": 0.9548,
+    "presentation": 0.9239,
+    "questionnaire": 0.9261,
+    "resume": 0.9901,
+    "scientific_publication": 0.9702,
+    "scientific_report": 0.9266,
+    "specification": 0.9718
+  },
+  "topk": {
+    "top-1": 0.9537,
+    "top-2": 0.9829,
+    "top-3": 0.9901
+  },
+  "ece": 0.0368,
+  "f1_per_kelas": {
+    "form": 0.8921,
+    "presentation": 0.9192,
+    "scientific_report": 0.9242,
+    "letter": 0.9343,
+    "questionnaire": 0.941,
+    "memo": 0.9545,
+    "advertisement": 0.9582,
+    "budget": 0.9592,
+    "news_article": 0.9612,
+    "invoice": 0.9625,
+    "file_folder": 0.9693,
+    "handwritten": 0.9704,
+    "scientific_publication": 0.9714,
+    "specification": 0.9718,
+    "email": 0.9855,
+    "resume": 0.9913
+  },
+  "menit": 126.1
+}
